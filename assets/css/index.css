@@ -1,0 +1,428 @@
+.buttonku-flat{
+  border: none;
+  background: #47a3da;
+  color: #fff;
+  padding: 1.5em;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+.badge-cart{
+  float: right;
+  bottom: 68px;
+  right: 38px;
+  position: fixed;
+  cursor: pointer;
+}
+.colapse{
+	float: left;
+	bottom: 200px;
+	left: 0px;
+	position: fixed;
+	cursor: pointer;
+
+}
+.chart{
+  float: right;
+  bottom: 25px;
+  right: 25px;
+  position: fixed;
+  cursor: pointer;
+
+}
+.register-button{
+	float: left;
+	bottom: 25px;
+	left: 25px;
+	position: fixed;
+	cursor: pointer;
+
+}
+.pointer{
+	cursor: pointer;
+}
+.img{
+	padding: 0;
+
+}
+#loop{
+	margin-top:30px;
+}
+	
+@media (min-width: 1250px){
+#loop{
+	margin-top:150px;
+}
+}
+#kantin{
+	margin-top: 100px;
+}
+.left{
+	float: left;
+	width: 49%;
+}
+.cart:hover::after{
+	content: " add to cart";
+}
+.remove:hover::after{
+	content: " Hapus ";
+}
+.aktif:hover::after{
+  content: " Aktifkan ";
+}
+
+.right{
+	float: right;
+	width: 49%;
+} 
+.right-danger{
+	float: right;
+	width: 49%;
+}
+.edit{
+  float: right;
+  width: 49%;
+}  
+.right:hover::after{
+	content: " bandingkan";
+}
+.edit:hover::after{
+  content: " Edit";
+}
+.right-danger:hover::after{
+	content: " hapus";
+}
+
+.img-thumbnail{
+	min-width: 20px;
+	min-height: 30px;
+}
+
+@media (min-width: 450px) and (max-width: 992px){
+	.img-thumbnail{
+	max-height: 245px;
+  min-height: 245px;
+  min-width: 395px;
+  max-width: 395px; 
+	float: center;
+}
+}	
+@media (min-width: 1250px){
+.img-thumbnail{
+	min-width: 355px;
+  max-width: 355px; 
+	min-height: 245px;
+  max-height: 245px;
+  float: center;
+  
+}
+}
+
+@media (min-width: 500px) and (max-width: 992px){
+	.tablet{
+	margin-left:100px; 
+	max-width: 400px;
+	max-height: 500px;
+}
+}	
+
+@media (min-width: 1250px){
+.tablet{
+	min-width: 355px;
+	min-height: 300px;
+}
+}
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}
+table.dataTable.dtr - inline.collapsed > tbody > tr > td.child, table.dataTable.dtr - inline.collapsed > tbody > tr > th.child, table.dataTable.dtr - inline.collapsed > tbody > tr > td.dataTables_empty {
+    cursor: default !important
+}
+table.dataTable.dtr - inline.collapsed > tbody > tr > td.child: before, table.dataTable.dtr - inline.collapsed > tbody > tr > th.child: before, table.dataTable.dtr - inline.collapsed > tbody > tr > td.dataTables_empty: before {
+    display: none!important
+}
+table.dataTable.dtr - inline.collapsed > tbody > tr > td: first - child, table.dataTable.dtr - inline.collapsed > tbody > tr > th: first - child {
+    position: relative;padding - left: 30 px;cursor: pointer
+}
+table.dataTable.dtr - inline.collapsed > tbody > tr > td: first - child: before, table.dataTable.dtr - inline.collapsed > tbody > tr > th: first - child: before {
+    top: 8 px;left: 4 px;height: 16 px;width: 16 px;display: block;position: absolute;color: white;border: 2 px solid white;border - radius: 16 px;box - shadow: 0 0 3 px #444;box-sizing:content-box;text-align:left;font-family:'Courier New', Courier, monospace;text-indent:4px;line-height:16px;content:'+';background-color:# 31 b131
+}
+table.dataTable.dtr - inline.collapsed > tbody > tr.parent > td: first - child: before, table.dataTable.dtr - inline.collapsed > tbody > tr.parent > th: first - child: before {
+    content: '-';background - color: #d33333
+}
+table.dataTable.dtr - inline.collapsed > tbody > tr.child td: before {
+    display: none
+}
+table.dataTable.dtr - inline.collapsed.compact > tbody > tr > td: first - child, table.dataTable.dtr - inline.collapsed.compact > tbody > tr > th: first - child {
+    padding - left: 27 px
+}
+table.dataTable.dtr - inline.collapsed.compact > tbody > tr > td: first - child: before, table.dataTable.dtr - inline.collapsed.compact > tbody > tr > th: first - child: before {
+    top: 5 px;left: 4 px;height: 14 px;width: 14 px;border - radius: 14 px;line - height: 14 px;text - indent: 3 px
+}
+table.dataTable.dtr - column > tbody > tr > td.control, table.dataTable.dtr - column > tbody > tr > th.control {
+    position: relative;cursor: pointer
+}
+table.dataTable.dtr - column > tbody > tr > td.control: before, table.dataTable.dtr - column > tbody > tr > th.control: before {
+    top: 50 % ;left: 50 % ;height: 16 px;width: 16 px;margin - top: -10 px;margin - left: -10 px;display: block;position: absolute;color: white;border: 2 px solid white;border - radius: 16 px;box - shadow: 0 0 3 px #444;box-sizing:content-box;text-align:left;font-family:'Courier New', Courier, monospace;text-indent:4px;line-height:16px;content:'+';background-color:# 31 b131
+}
+table.dataTable.dtr - column > tbody > tr.parent td.control: before, table.dataTable.dtr - column > tbody > tr.parent th.control: before {
+    content: '-';background - color: #d33333
+}
+table.dataTable > tbody > tr.child {
+    padding: 0.5e m 1e m
+}
+table.dataTable > tbody > tr.child: hover {
+    background: transparent!important
+}
+table.dataTable > tbody > tr.child ul {
+    display: inline - block;list - style - type: none;margin: 0;padding: 0
+}
+table.dataTable > tbody > tr.child ul li {
+    border - bottom: 1 px solid# efefef;
+    padding: 0.5e m 0
+}
+table.dataTable > tbody > tr.child ul li: first - child {
+    padding - top: 0
+}
+table.dataTable > tbody > tr.child ul li: last - child {
+    border - bottom: none
+}
+table.dataTable > tbody > tr.child span.dtr - title {
+    display: inline - block;min - width: 75 px;font - weight: bold
+}
+div.dtr - modal {
+    position: fixed;box - sizing: border - box;top: 0;left: 0;height: 100 % ;width: 100 % ;z - index: 100;padding: 10e m 1e m
+}
+div.dtr - modal div.dtr - modal - display {
+    position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 50 % ;height: 50 % ;overflow: auto;margin: auto;z - index: 102;overflow: auto;background - color: #f5f5f7;border: 1 px solid black;border - radius: 0.5e m;box - shadow: 0 12 px 30 px rgba(0, 0, 0, 0.6)
+}
+div.dtr - modal div.dtr - modal - content {
+    position: relative;padding: 1e m
+}
+div.dtr - modal div.dtr - modal - close {
+    position: absolute;top: 6 px;right: 6 px;width: 22 px;height: 22 px;border: 1 px solid# eaeaea;background - color: #f9f9f9;text - align: center;border - radius: 3 px;cursor: pointer;z - index: 12
+}
+div.dtr - modal div.dtr - modal - close: hover {
+    background - color: #eaeaea
+}
+div.dtr - modal div.dtr - modal - background {
+    position: fixed;top: 0;left: 0;right: 0;bottom: 0;z - index: 101;background: rgba(0, 0, 0, 0.6)
+}
+@media screen and(max - width: 767 px) {
+    div.dtr - modal div.dtr - modal - display {
+        width: 95 %
+    }
+}
+
+.mini-submenu{
+  display:none;  
+  background-color: rgba(0, 0, 0, 0);  
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;  
+  /*position: relative;*/
+  width: 42px;
+
+}
+
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* General styles for all menus */
+.cbp-spmenu {
+  background: white;
+  position: fixed;
+  border-top: 1px solid #47a3da;
+  border-right: 1px solid #47a3da;
+  border-bottom: 1px solid #47a3da;
+}
+
+.cbp-spmenu h4 {
+  color: #afdefa;
+  font-size: 1.3em;
+  padding: 20px;
+  margin: 0;
+  font-weight: 100;
+  background: #0d77b6;
+}
+
+.cbp-spmenu p {
+  display: block;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.cbp-spmenu p:hover {
+  background: white;
+  border: none;
+}
+
+.cbp-spmenu p:active {
+  background: #afdefa;
+  color: #47a3da;
+
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+  margin-top:10%; 
+  width: 240px;
+  height: 50%;
+  top: 0;
+  z-index: 1000;
+}
+
+.cbp-spmenu-vertical p {
+ 
+  padding: 1em;
+}
+
+.cbp-spmenu-horizontal {
+  width: 100%;
+  height: 150px;
+  left: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h4 {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.cbp-spmenu-horizontal p {
+  float: left;
+  width: 20%;
+  padding: 0.8em;
+  border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+  left: -240px;
+}
+
+.cbp-spmenu-right {
+  right: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+  left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+  right: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.cbp-spmenu-top {
+  top: -150px;
+}
+
+.cbp-spmenu-bottom {
+  bottom: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+  top: 0px;
+}
+
+.cbp-spmenu-bottom.cbp-spmenu-open {
+  bottom: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.cbp-spmenu-push-toright {
+  left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+  left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+  .cbp-spmenu-horizontal {
+    font-size: 0.5em;
+    height: 110px;
+  }
+
+  .cbp-spmenu-top {
+    top: -110px;
+  }
+
+  .cbp-spmenu-bottom {
+    bottom: -110px;
+  }
+
+}
+
+@media screen and (max-width: 50.375em){
+
+  .cbp-spmenu-vertical {
+    margin-top: 30%; 
+    font-size: 90%;
+    width: 190px;
+  }
+
+  .cbp-spmenu-left,
+  .cbp-spmenu-push-toleft {
+    left: -190px;
+  }
+
+  .cbp-spmenu-right {
+    right: -190px;
+  }
+
+  .cbp-spmenu-push-toright {
+    left: 190px;
+  }
+}
